@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Meta Tag Inspector",
+  "version": "1.0",
+  "description": "Inspect and display meta tags of a webpage.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
